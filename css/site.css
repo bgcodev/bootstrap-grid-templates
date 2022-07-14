@@ -1,6 +1,61 @@
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+.homeBG{
+    width: 100%;
+    background: url(/img/omnoBG.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: center;
+    size: cover;
+}
+
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
 .homeText {
-    font-family: modesto-open-shadow, sans-serif;
+    font-family: 'ONE DAY', sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: rgb(195, 255, 0);
+    color: darkslategray;
+}
+
+.titleBox{
+    opacity: 90%;
+}
+
+.minHeight{
+    min-height: 70vh;
+}
+
+.c1{
+    color: rgb(18,29,44);
+
+
+    background-color: rgba(164, 180, 209, 0.733);
+    border-radius: 10%;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    color: rgb(18,29,44);
+    font-size: 4vh;
+}
+
+.c2{
+    color: rgb(18,29,44);
+    background-color: rgba(56, 69, 113, 0.733);
+    border: 2px;
+    border-color: black;
+    border-style:solid;
+    text-align: center;
+
+    border-radius: 10%;
+    border-style: solid;
+    font-size: 4vh;
 }
